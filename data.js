@@ -1,7 +1,7 @@
 // Настройки и демо-данные. На втором этапе это приходит с сервера.
 window.CONFIG = {
-  botName: "",            // имя бота для Telegram Login Widget, например "MsBimboBot"
-  channelUrl: "https://t.me/",
+  botName: "bimbo",            // имя бота для Telegram Login Widget, например "MsBimboBot"
+  channelUrl: "https://t.me/+vjrJTzjMfKpiMGIx",
   authUrl: ""             // адрес Cloudflare Worker (этап 2)
 };
 window.RANKS = [
