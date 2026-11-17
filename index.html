@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ms.Bimbo — private digital club</title>
+<meta name="robots" content="noindex,nofollow">
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pinyon+Script&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Manrope:wght@400;500;600&display=swap">
+</head>
+<body>
+<div id="gate" class="gate">
+  <div class="gate-box">
+    <div class="logo">Ms.Bimbo</div>
+    <p class="sub">Private digital club</p>
+    <p>Сайт только для взрослых. Подтверди, что тебе есть 18 лет.</p>
+    <button class="btn" id="age-yes">Мне есть 18</button>
+    <a class="btn ghost" href="https://www.google.com">Выйти</a>
+  </div>
+</div>
+
+<div id="login" class="gate hidden">
+  <div class="gate-box">
+    <div class="logo">Ms.Bimbo</div>
+    <p class="sub">Dream. Obey. Belong ♡</p>
+    <p>Вход через Telegram. Доступ открыт подписчикам закрытого канала.</p>
+    <div id="tg-widget"></div>
+    <button class="btn" id="demo-login">Войти в демо-режиме</button>
+    <p class="note">Демо-режим показывает сайт с тестовыми данными. Настоящая проверка подписки подключается на втором этапе.</p>
+  </div>
+</div>
+
+<div class="app hidden" id="app">
+  <aside class="side">
+    <div class="logo sm">Ms.Bimbo</div>
+    <nav id="nav"></nav>
+    <div class="balance"><span>Баланс</span><b id="bal">0 ♡</b></div>
+  </aside>
+  <main>
+    <header class="top"><button class="burger" id="burger" aria-label="Меню">☰</button><span class="who" id="who"></span><button class="link" id="logout">Выйти</button></header>
+    <section id="view"></section>
+  </main>
+</div>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

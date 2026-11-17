@@ -1,0 +1,12 @@
+name = "msbimbo-api"
+main = "worker.js"
+compatibility_date = "2024-11-01"
+
+[vars]
+CHANNEL = "@ИМЯ_КАНАЛА_ИЛИ_-100ID"      # у закрытого канала — числовой id вида -100123456789
+ORIGIN = "https://ТВОЙ_ЛОГИН.github.io"  # без слэша и пути
+ADMINS = "ТВОЙ_TELEGRAM_ID"
+
+[[kv_namespaces]]
+binding = "DB"
+id = "ВСТАВЬ_ID_ПОСЛЕ_wrangler_kv_namespace_create"
